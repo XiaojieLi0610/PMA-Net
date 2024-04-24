@@ -5,7 +5,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = config.gpu_id
 import torch.utils.data
 import sys
 from data import collate_fn, CorrespondencesDataset
-from ADFNet import ADFNET as Model
+from PAMNet import PMANET as Model
 from train import train
 from test import test
 
